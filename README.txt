@@ -3,15 +3,18 @@ check_wsman-Suite
 
 check_wsman Suite is a Compilation of several Nagios check Scripts based on WSMAN
 
-## Preface
+1. Preface
+==========
 
 check_wsman-Suite is designed as a compilation of Nagios check Scripts based on the WSMAN::easy Module.
 The Suite should empower Admins to Monitor several Assets of thier Equipment without the need to install
 OEM Software such as DELL Open Manage.
 
-### Content as of 12/2013
+2. Content as of 12/2013:
+=========================
 
-#### Hardware
+Hardware Scripts
+----------------
 
 check_wsman_dell_hw.pl 
 heck Script for pre G12 Servers
@@ -19,7 +22,8 @@ heck Script for pre G12 Servers
 check_wsman_dell_hw_g12.pl 
 Check Script for G12 and post G12 Servers
 
-#### Microsoft Windows
+Microsoft Windows Scripts
+-------------------------
 
 check_wsman_windows_cpu.pl 
 Check Script for Windows CPU utilisation.
@@ -40,7 +44,8 @@ check_wsman_windows_network_if.pl
 Check Script to ckeck Network Interface utilisation.
 
 
-## Perl Depandancys
+3. Perl Depandancys
+===================
 
 Data::UUID
 
@@ -50,5 +55,5 @@ XML::LibXML
 
 XML::Simple
 
-## Installation
-
+4. Installation
+===============
