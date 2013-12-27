@@ -51,10 +51,10 @@ SUCH DAMAGES.
 use strict;
 use warnings;
 
+use lib "module";
 use WSMAN;
 use Getopt::Long;
 use XML::Simple;
-use Data::Dumper;
 
 my $host ||= "o";
 my $user ||= "0";
