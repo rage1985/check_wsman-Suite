@@ -2,3 +2,37 @@ check_wsman-Suite
 =================
 
 check_wsman Suite is a Compilation of several Nagios check Scripts based on WSMAN
+
+## Content as of 12/2013
+
+### Hardware
+
+check_wsman_dell_hw.pl Check Script for pre G12 Servers
+
+check_wsman_dell_hw_g12.pl Check Script for G12 and post G12 Servers
+
+### Microsoft Windows
+
+check_wsman_windows_cpu.pl Check Script for Windows CPU utilisation.
+
+check_wsman_windows_mem.pl Check Script for Windows Memory utilisation based on physical Mem to Pagefile ratio.
+
+check_wsman_windows_partition.pl Check Script for Windows Partition Space utilisation.
+
+check_wsman_windows_proc_num.pl Check Script to check the Number of running Processes.
+
+check_wsman_windows_proc_stat.pl Check Script to check if a Process is running.
+
+check_wsman_windows_network_if.pl Check Script to ckeck Network Interface utilisation.
+
+
+## Perl Depandancys
+
+Data::UUID
+
+LWP::UserAgent
+
+XML::LibXML
+
+XML::Simple
+
