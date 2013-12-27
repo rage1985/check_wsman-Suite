@@ -57,3 +57,18 @@ XML::Simple
 
 4. Installation
 ===============
+
+Copy the Contents of the Zip File to your Plugins Directory.
+
+Check the use lib "module" Line to match your System Configuration in Terms of correct Path.
+
+Have FUN!
+
+5. Common Parameters
+====================
+
+-h host to check
+-u name of User with sufficient privilegedes
+-p password of User
+-v verbose output
+
